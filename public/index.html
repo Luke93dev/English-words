@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pl">
+<html>
+
+<head>
+    <title>Nauka języka angielskiego</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="words-amount">
+        <h3 class="words-amount__title">Wybierz liczbę słówek, jaką chcesz przećwiczyć:</h3>
+        <div class="words-amount__box-wrapper">
+            <button class="words-amount__box" id="words5" value=5>5</button>
+            <button class="words-amount__box" id="words10" value=10>10</button>
+            <button class="words-amount__box" id="words15" value=15>15</button>
+        </div>
+    </div>
+
+    <div class="main-wrapper">
+        <div class="main-wrapper__polish-words" id="polish-words"></div>
+
+        <form class="main-wrapper__form" action="" autocomplete="off">
+            <input type="text" class="main-wrapper__english-word" id="english-word" />
+            <button id="submit_button" class="main-wrapper__submit-button button">Sprawdź</button>
+        </form>
+    </div>
+
+    <button id="prompt-button" class="prompt-button button">Podpowiedź</button>
+    <div class="incorrect-answer">Błąd! Prawidłowa odpowiedź to: <span id="correct-answer" class="correct-answer"></span></div>
+
+    <div class="finished">
+        <h3 class="finished__header">Udało się !</h3>
+        <p class="finished__paragraph"> Ten zestaw słówek masz już opanowany, jeżeli chcesz przećwiczyć kolejne słówka - naciśnij przycisk</p>
+        <button id="again_button" class="button finished__button">Ćwicz ponownie</button>
+    </div>
+
+    <div class="overlay">
+        <div class="overlay__wrapper">
+            <h2 class="overlay__title">W jaki sposób działa aplikacja do nauki słówek?</h2>
+            <p class="overlay__paragraph">To bardzo proste, zależnie od Twojego wyboru generowana jest określona liczba słówek.<br> Algorytm został tak dopasowany, aby w przypadku błędnych odpowiedzi dane słówko pojawiało się częściej. Już nawet jedna błędna odpowiedź spowoduje, że słówko pojawi się conajmniej 3 razy!</p>
+        </div>
+    </div>
+    <div class="anim-button">
+        <div class="anim-button__bar anim-button__bar1 "></div>
+        <div class="anim-button__bar anim-button__bar2"></div>
+        <div class="anim-button__bar anim-button__bar3"></div>
+    </div>
+
+    <script src="js/words.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
