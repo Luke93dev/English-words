@@ -274,7 +274,9 @@ body {
 
 @media screen and (max-width: 800px) {
   .mobile {
-    display: block; } }
+    display: block; }
+  .anim-button {
+    left: 80%; } }
 
 .hideAll {
   position: absolute;
