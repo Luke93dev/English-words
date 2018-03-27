@@ -5,14 +5,20 @@
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: url(background.jpg);
     background-size: cover;
     overflow: hidden;
+    padding-bottom: 50%;
+    @include desctop {
+        height: 100vh;
+        width: 100vw;
+        padding: 0;
+    }
 }
 
 .words-amount {
@@ -110,7 +116,7 @@ body {
     @include mobile-landscape {
         flex-direction: row;
         align-items: center;
-        margin-top: 10%;
+        margin-top: 15%;
         width: 80%;
         height: 40%;
     }
