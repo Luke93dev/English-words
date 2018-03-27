@@ -1,3 +1,7 @@
+window.onload = function () {
+    hideAll.style.display = "none";
+}
+
 const words5 = document.getElementById("words5");
 const words10 = document.getElementById("words10");
 const words15 = document.getElementById("words15");
