@@ -266,5 +266,93 @@ arr = [
     {
         eng: "estimate",
         pol: "oszacować"
+    },
+    {
+        eng: "reject",
+        pol: "odrzucać, nie przyjąć"
+    },
+    {
+        eng: "remote",
+        pol: "zdalny"
+    },
+    {
+        eng: "clutter",
+        pol: "nieład(mess)"
+    },
+    {
+        eng: "inconvenient",
+        pol: "niewygodny"
+    },
+    {
+        eng: "spreadsheet",
+        pol: "arkusz"
+    },
+    {
+        eng: "apart",
+        pol: "odrębnie,niezależnie"
+    },
+    {
+        eng: "torn",
+        pol: "rozdarty,poszarpany"
+    },
+    {
+        eng: "standalone",
+        pol: "samodzielny"
+    },
+    {
+        eng: "alleviate",
+        pol: "łagodzić,przynieść ulgę"
+    },
+    {
+        eng: "humidity",
+        pol: "wilgotność"
+    },
+    {
+        eng: "dash",
+        pol: "myślnik"
+    },
+    {
+        eng: "bunch",
+        pol: "kiść,pęczek"
+    },
+    {
+        eng: "deploy",
+        pol: "rozmieścić"
+    },
+    {
+        eng: "fetch",
+        pol: "sprowadzać"
+    },
+    {
+        eng: "swallow",
+        pol: "połknąć"
+    },
+    {
+        eng: "beyond",
+        pol: "poza"
+    },
+    {
+        eng: "constraint",
+        pol: "przymus,wymuszenie"
+    },
+    {
+        eng: "brittle",
+        pol: "kruchy,łamliwy"
+    },
+    {
+        eng: "discouraged",
+        pol: "zniechęcony"
+    },
+    {
+        eng: "inquire",
+        pol: "dowiadywać się"
+    },
+    {
+        eng: "curious",
+        pol: "ciekawy"
+    },
+    {
+        eng: "in particular",
+        pol: "w szczególności"
     }
 ];
